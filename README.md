@@ -39,9 +39,11 @@ For all the valid values, we use two python dictionaries to update the number of
 
 # Note
 
- . This version does not support .xlsx file format available on the US Department of Labor website. Normally to handle .xlsx file we could use the xlrd module, but it is not a build-in one for python, so I am not sure if it is allowed in this challenge.
- . As we know, python's float datatype does not always round percentage as intended, for instance, sometimes 0.5 round to 0. This is fairly trivial, but for precision we use decimal datatype instead. 
- . It took ~7 seconds to process a ~200 Mbyte data on a Macbook pro.  
+*  This version does not support .xlsx file format available on the US Department of Labor website. Normally to handle .xlsx file we could use the xlrd module, but it is not a build-in one for python, so I am not sure if it is allowed in this challenge.
+
+*  As we know, python's float datatype does not always round percentage as intended, for instance, sometimes 0.5 round to 0. This is fairly trivial, but for precision we use decimal datatype instead. 
+
+*  It took ~7 seconds to process a ~200 Mbyte data on a Macbook pro.  
  
 # Run
 
